@@ -15,7 +15,7 @@ speed_enemy_min = 1
 
 #!
 #TODO
-
+print("Работает")
 load_file = open("save.dat", "rb")
 score_global = pickle.load(load_file)
 load_file.close()
@@ -233,6 +233,7 @@ while game:
             window.blit(backgroudwin, (0, 0))
             window.blit(win, (200, 200))
         hard_system()
+        
 
 
         display.update()
