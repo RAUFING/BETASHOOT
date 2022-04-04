@@ -239,3 +239,4 @@ while game:
         display.update()
     window.blit(MANUAL_CURSOR, (mouse.get_pos()))
     clock.tick(FPS)
+display.quit()
